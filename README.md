@@ -1,6 +1,6 @@
 # Teste para candidatos à vaga de desenvolvedor Front-End
 
-	Nesta etapa, você precisa desenvolver um **html designer** com base na imagem disponível e requisitos descritos.
+	Nesta etapa, você precisa desenvolver uma toolbox de componentes com base na imagem disponível e requisitos descritos.
 
 ## Cenário:
 	
@@ -13,10 +13,8 @@
 
 	Requisitos:
 	- como usuário, eu possuo uma toolbox para poder arrastar e soltar componentes desta toolbox na área de design
-	- como usuário, eu posso de incluir e excluir tantos componentes quanto eu julgar necessário
+	- como usuário, eu posso incluir e excluir tantos componentes quanto eu julgar necessário
 	- como usuário, eu posso customizar estes componentes visualmente
-	- como usuário, eu posso baixar este html gerado
-	- como usuário, eu posso visualizar o código fonte deste html
 
 ## Instruções:
 
@@ -27,30 +25,15 @@
 
 	Observação: Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
 
+## Considerações: 
+- Utilizar Vue como framework javascript;
+- Utilizar features do ES6+, por exemplo, async/await, object destructuring, map/spread operators;
+- Possuir um layout responsivo;
+- Documentação descrevendo a metodologia utilizada;
 
-## Você pode:
-
-	- Utilizar preprocessadores e/ou bibliotecas css;
-	- Utilizar um task runner de sua preferência;
-	- Utilizar componentes e/ou frameworks.
-
-
-## Ganhe pontos extras por:
-
-	- Desenvolver HTML semântico;
-	- Utilizar boas práticas de javascript;
-	- Componentizar seu css.
-
-
-## Breakpoints:
-
-    - 768px;
-	- 1024px;
-    - 1280px.
-
-
-## Desenvolva utilizando:
-
-	- Identidade visual do octadesk
-
-Boa sorte!
+## Diferenciais:
+- Utilizar vuex;
+- Utilizar typescript;
+- Utilizar testes automatizados;
+- Utilizar metodologias e boas práticas de código;
+- Publicar a aplicação em uma url pública;
