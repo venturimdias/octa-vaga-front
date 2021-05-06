@@ -26,13 +26,15 @@ Foi desenvolvido um Toolbox drag'n drop para criação de formulário dinâmicos
 
 <h2>Rodando a Aplicação</h2>
 #### Instale as dependências
+
 ```
 $ npm install
 ```
 
 #### Execute a Aplicação em Desenvolvimento
+
 ````
-$ npm run dev
+$ npm run serve
 ````
 
 O servidor iniciará na porta:8080 - acesse http://localhost:8080
