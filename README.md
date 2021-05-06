@@ -1,39 +1,40 @@
-# Teste para candidatos à vaga de desenvolvedor Front-End
+<br/>
+<p align="center">
+    <img width="300px" src=".github/octadesk.svg" />
+</p>
 
-	Nesta etapa, você precisa desenvolver uma toolbox de componentes com base na imagem disponível e requisitos descritos.
+<p align="center">
+    <img width="700px" src=".github/octadesk4.png" />
+</p>
 
-## Cenário:
-	
-	O octadesk quer investir em um novo produto que possui uma demanda específica.
-	Durante a design sprint deste produto surgiu uma hipótese que precisa ser validada. 
-	Esta hipótese depende de um editor de html drag'n drop para que o usuário possa customizar sua página corporativa.
-	Nossa analista de UX criou um protótipo simples e precisamos validar a experiência do usuário proposta.
-	Com base no protótipo e nas funcionalidades mandatórias abaixo descritas, devemos criar um protótipo mais fiel e, 
-	principalmente, funcional.
+<h1 align="center">Toolbox - Octadesk</h1>
+Foi desenvolvido um Toolbox drag'n drop para criação de formulário dinâmicos. Onde o usuário poderá inserir quantos cards desejar e personalizar o título do card e gerenciar a lista excluindo e adicionado novos items.
 
-	Requisitos:
-	- como usuário, eu possuo uma toolbox para poder arrastar e soltar componentes desta toolbox na área de design
-	- como usuário, eu posso incluir e excluir tantos componentes quanto eu julgar necessário
-	- como usuário, eu posso customizar estes componentes visualmente
+<h2>Outras imagens</h2>
+<p align="center">
+    <img width="260px" src=".github/octadesk1.png" />
+    <img width="260px" src=".github/octadesk2.png" />
+    <img width="260px" src=".github/octadesk3.png" />
+</p>
 
-## Instruções:
+<h1>Tecnologias:</h1>
+- Vuex
+- vuedraggable
+- sortablejs
 
-	1. Para iniciar o teste, faça um fork deste repositório;
-	2. Crie um branch com o seu nome;
-	3. Implemente os arquivos desenvolvidos;
-	3. Após terminar, submeta um pull request e aguarde seu feedback.
 
-	Observação: Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
 
-## Considerações: 
-- Utilizar Vue como framework javascript;
-- Utilizar features do ES6+, por exemplo, async/await, object destructuring, map/spread operators;
-- Possuir um layout responsivo;
-- Documentação descrevendo a metodologia utilizada;
+<h2>Rodando a Aplicação</h2>
+#### Instale as dependências
+```
+$ npm install
+```
 
-## Diferenciais:
-- Utilizar vuex;
-- Utilizar typescript;
-- Utilizar testes automatizados;
-- Utilizar metodologias e boas práticas de código;
-- Publicar a aplicação em uma url pública;
+#### Execute a Aplicação em Desenvolvimento
+````
+$ npm run dev
+````
+
+O servidor iniciará na porta:8080 - acesse http://localhost:8080
+
+
